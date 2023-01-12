@@ -22,11 +22,17 @@ module.exports = {
           dark_blue: 'hsl(213, 19%, 18%)',
           very_dark_blue: 'hsl(216, 12%, 8%)',
         },
+        '03': {
+          light_gray: 'hsl(212, 45%, 89%)',
+          grayish_blue: 'hsl(220, 15%, 55%)',
+          dark_blue: 'hsl(218, 44%, 22%)',
+        },
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         fraunces: ['Fraunces', 'sans-serif'],
         overpass: ['Overpass', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
       },
       backgroundImage: {
         previewMobile:

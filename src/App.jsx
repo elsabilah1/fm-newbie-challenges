@@ -3,6 +3,7 @@ import Layout from './components/Layout'
 import Home from './views/Home'
 import InteractiveRatingComponent from './views/InteractiveRatingComponent'
 import ProductPreviewCardComponent from './views/ProductPreviewCardComponent'
+import QrCodeComponent from './views/QrCodeComponent'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             path='/interactive-rating-comp'
             element={<InteractiveRatingComponent />}
           />
+          <Route path='/qr-code-comp' element={<QrCodeComponent />} />
         </Route>
       </Routes>
     </BrowserRouter>
