@@ -30,9 +30,9 @@ module.exports = {
       },
       backgroundImage: {
         previewMobile:
-          "url('./src/views/ProductPreviewCardComponent/images/image-product-mobile.jpg')",
+          "url('./views/ProductPreviewCardComponent/images/image-product-mobile.jpg')",
         previewDesktop:
-          "url('./src/views/ProductPreviewCardComponent/images/image-product-desktop.jpg')",
+          "url('./views/ProductPreviewCardComponent/images/image-product-desktop.jpg')",
       },
     },
   },
