@@ -34,12 +34,20 @@ module.exports = {
           very_dark_blue_card: 'hsl(216, 50%, 16%)',
           very_dark_blue_line: 'hsl(215, 32%, 27%)',
         },
+        '05': {
+          pale_blue: 'hsl(225, 100%, 94%)',
+          bright_blue: 'hsl(245, 75%, 52%)',
+          very_pale_blue: 'hsl(225, 100%, 98%)',
+          desaturated_blue: 'hsl(224, 23%, 55%)',
+          dark_blue: 'hsl(223, 47%, 23%)',
+        },
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         fraunces: ['Fraunces', 'sans-serif'],
         overpass: ['Overpass', 'sans-serif'],
         outfit: ['Outfit', 'sans-serif'],
+        red_hat_display: ['Red Hat Display', 'sans-serif'],
       },
       backgroundImage: {
         previewMobile:

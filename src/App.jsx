@@ -3,6 +3,7 @@ import Layout from './components/Layout'
 import Home from './views/Home'
 import InteractiveRatingComponent from './views/InteractiveRatingComponent'
 import NftPreviewCardComponent from './views/NftPreviewCardComponent'
+import OrderSummaryComponent from './views/OrderSummaryComponent'
 import ProductPreviewCardComponent from './views/ProductPreviewCardComponent'
 import QrCodeComponent from './views/QrCodeComponent'
 
@@ -24,6 +25,10 @@ const App = () => {
           <Route
             path='/nft-preview-card-comp'
             element={<NftPreviewCardComponent />}
+          />
+          <Route
+            path='/order-summary-comp'
+            element={<OrderSummaryComponent />}
           />
         </Route>
       </Routes>

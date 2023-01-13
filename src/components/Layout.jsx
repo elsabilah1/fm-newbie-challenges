@@ -6,7 +6,7 @@ const Layout = () => {
     <>
       {!(pathname === '/') && (
         <Link to='/'>
-          <div className='m-3 absolute bg-white h-14 w-14 grid place-items-center rounded-full text-xs font-bold shadow border'>
+          <div className='z-50 m-3 absolute bg-white h-14 w-14 grid place-items-center rounded-full text-xs font-bold shadow border'>
             Go Back
           </div>
         </Link>
