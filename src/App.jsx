@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
+import ThreeColumnPreviewCardComponent from './views/3ColumnPreviewCardComponent'
 import Home from './views/Home'
 import InteractiveRatingComponent from './views/InteractiveRatingComponent'
 import NftPreviewCardComponent from './views/NftPreviewCardComponent'
@@ -34,6 +35,10 @@ const App = () => {
           <Route
             path='/stats-preview-card-comp'
             element={<StatsPreviewCardComponent />}
+          />
+          <Route
+            path='/3-column-preview-card-comp'
+            element={<ThreeColumnPreviewCardComponent />}
           />
         </Route>
       </Routes>
