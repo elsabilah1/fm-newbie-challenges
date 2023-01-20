@@ -6,6 +6,7 @@ import NftPreviewCardComponent from './views/NftPreviewCardComponent'
 import OrderSummaryComponent from './views/OrderSummaryComponent'
 import ProductPreviewCardComponent from './views/ProductPreviewCardComponent'
 import QrCodeComponent from './views/QrCodeComponent'
+import StatsPreviewCardComponent from './views/StatsPreviewCardComponent'
 
 const App = () => {
   return (
@@ -29,6 +30,10 @@ const App = () => {
           <Route
             path='/order-summary-comp'
             element={<OrderSummaryComponent />}
+          />
+          <Route
+            path='/stats-preview-card-comp'
+            element={<StatsPreviewCardComponent />}
           />
         </Route>
       </Routes>

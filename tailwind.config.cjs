@@ -41,6 +41,13 @@ module.exports = {
           desaturated_blue: 'hsl(224, 23%, 55%)',
           dark_blue: 'hsl(223, 47%, 23%)',
         },
+        '06': {
+          very_dark_blue: 'hsl(233, 47%, 7%)',
+          dark_desaturated_blue: 'hsl(244, 38%, 16%)',
+          soft_violet: 'hsl(277, 64%, 61%)',
+          slightly_trans_white_main: 'hsla(0, 0%, 100%, 0.75)',
+          slightly_trans_white: 'hsla(0, 0%, 100%, 0.6)',
+        },
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
@@ -48,6 +55,8 @@ module.exports = {
         overpass: ['Overpass', 'sans-serif'],
         outfit: ['Outfit', 'sans-serif'],
         red_hat_display: ['Red Hat Display', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        lexend_deca: ['Lexend Deca', 'sans-serif'],
       },
       backgroundImage: {
         previewMobile:
